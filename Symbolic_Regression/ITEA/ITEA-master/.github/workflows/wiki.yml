@@ -1,0 +1,30 @@
+name: Email notifier
+
+on:
+  gollum:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: hmarr/debug-action@v2
+      - name: t
+        run: echo "${{ github.event.head_commit.message }}"
+  test:
+    runs-on: ubuntu-latest
+    if: "contains(github.event.pages[0].page_name, '[Change]')"
+    steps:
+      - name: test-env
+        run: echo "enviar email"
+      - uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{secrets.MAIL_USERNAME}}
+          password: ${{secrets.MAIL_PASSWORD}}
+          to: 'fabricio.olivetti@gmail.com'
+          from: 'Github Wiki - Knowledge Integration SR'
+          subject: 'Important change in ${{ github.event.pages[0].page_name }} Wiki'
+          body: 'Check the changes in $${{ github.event.pages[0].html_url }}'

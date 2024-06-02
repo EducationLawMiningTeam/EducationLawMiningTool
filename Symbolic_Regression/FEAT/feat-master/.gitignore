@@ -1,0 +1,16 @@
+build*/*
+*/build/*
+debug/*
+*/debug/*
+tags
+.ycm_extra_conf.py
+*.ipynb_checkpoint
+*.ipynb_checkpoints/
+__pycache__
+*.so
+*.exe
+feat.egg-info
+python/pyfeat.cpp
+_site/
+*.log
+docs/doxygen_site/

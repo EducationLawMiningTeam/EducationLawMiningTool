@@ -1,0 +1,55 @@
+# ===
+# Configuration Options:
+# ./configure : builds a release version of feat.
+# ./configure tests: builds a release version of feat and the tests.
+# ./configure debug : builds a debug version of feat.
+# ./configure profile: build a version of feat use with profiling tools. 
+# ===
+
+# add some environment variables
+# if you are not using conda, these paths should be changed
+# to point to the locations of the dependencies.
+export SHOGUN_LIB=$CONDA_PREFIX/lib/
+export SHOGUN_DIR=$CONDA_PREFIX/include/
+export EIGEN3_INCLUDE_DIR=$CONDA_PREFIX/include/eigen3/
+
+echo "SHOGUN_LIB = $SHOGUN_LIB"
+echo "SHOGUN_DIR = $SHOGUN_DIR"
+echo "EIGEN3_INCLUDE_DIR = $EIGEN3_INCLUDE_DIR"
+
+# configuration options
+OMP=ON
+EXTRA_FLAGS=""
+BUILD_DIR="build"
+
+if [ "$1" == "debug" ]; then
+    OMP=OFF
+    EXTRA_FLAGS="-DCMAKE_BUILD_TYPE=Debug"
+elif [ "$1" == "profile" ]; then
+    BUILD_DIR="profile"
+    EXTRA_FLAGS="-DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=-p -DCMAKE_CXX_FLAGS=-O2"
+elif [ "$1" == "lpc" ] ; then
+    # set up LPC environment
+    module load gcc/5.2.0
+    OMP=OFF
+elif [ "$1" == "lpc_cuda" ] ; then
+    # set up LPC environment
+    module load gcc/5.2.0
+    BUILD_DIR="buildGPU"
+    OMP=OFF
+    EXTRA_FLAGS="-DCORE_USE_CUDA=ON"
+elif [[ "$1" == "tests" ||  "$1" == "test"  ]] ; then 
+    EXTRA_FLAGS="-DGTEST=ON"
+elif [ "$1" == "gpu" ] ; then
+    BUILD_DIR="buildGPU"
+    EXTRA_FLAGS="-DCORE_USE_CUDA=ON"
+fi
+
+echo "OMP = $OMP"
+echo "EXTRA_FLAGS = $EXTRA_FLAGS"
+echo "BUILD_DIR = $BUILD_DIR"
+
+#Run CMAKE
+rm -rf $BUILD_DIR; mkdir $BUILD_DIR; cd $BUILD_DIR; 
+cmake -DSHOGUN_DIR=$SHOGUN_LIB -DEIGEN3_INCLUDE_DIR=$EIGEN3_INCLUDE_DIR -DOMP=$OMP $EXTRA_FLAGS ..
+cd ..

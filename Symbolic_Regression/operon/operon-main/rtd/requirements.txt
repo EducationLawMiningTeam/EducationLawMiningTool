@@ -1,0 +1,6 @@
+sphinx
+furo
+pillow
+mock
+commonmark
+recommonmark
