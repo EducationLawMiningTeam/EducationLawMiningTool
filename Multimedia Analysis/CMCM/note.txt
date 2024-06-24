@@ -1,0 +1,20 @@
+自研：
+1、Cross-modal credibility modelling for EEG-based multimodal emotion recognition
+
+
+Baseline：
+1、MS-MDA：
+Chen H, Jin M, Li Z, et al. MS-MDA: Multisource marginal distribution adaptation for cross-subject and cross-session EEG emotion recognition[J]. Frontiers in Neuroscience, 2021, 15: 778488.
+
+
+
+2、GNN4EEG
+Zhang K, Ye Z, Ai Q, et al. GNN4EEG: A Benchmark and Toolkit for Electroencephalography Classification with Graph Neural Network[J]. arXiv preprint arXiv:2309.15515, 2023.
+这是个算法库，他实现了四个基于GNN的EEG情感分类算法：
+1）Song T, Zheng W, Song P, et al. EEG emotion recognition using dynamical graph convolutional neural networks[J]. IEEE Transactions on Affective Computing, 2018, 11(3): 532-541.
+
+2）Zhong P, Wang D, Miao C. EEG-based emotion recognition using regularized graph neural networks[J]. IEEE Transactions on Affective Computing, 2020, 13(3): 1290-1301.
+
+3）Zhang G, Yu M, Liu Y J, et al. SparseDGCNN: Recognizing emotion from multichannel EEG signals[J]. IEEE Transactions on Affective Computing, 2021, 14(1): 537-548.
+
+4）Jia Z, Lin Y, Wang J, et al. HetEmotionNet: two-stream heterogeneous graph recurrent neural network for multi-modal emotion recognition[C]//Proceedings of the 29th ACM International Conference on Multimedia. 2021: 1047-1056.
