@@ -1,0 +1,5 @@
+训练初步的未见类分类器：CUDA_VISIBLE_DEVICES=6 python train_unseen_classifier.py --zero_shot_type ua
+
+训练GAN: CUDA_VISIBLE_DEVICES=6 nohup python main.py --zero_shot_type ua --cuda > data_ua/output.log 2>&1 &
+
+更新分类器：CUDA_VISIBLE_DEVICES=6 python final_train_cls.py --zero_shot_type ua --cuda
