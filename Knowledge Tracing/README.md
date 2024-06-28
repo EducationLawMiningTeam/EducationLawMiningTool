@@ -1,8 +1,9 @@
 # Awesome-Knowledge_Tracing-Papers
 
 | Title                                                                                                      | Author                | Year | Code                                     | Publication                                   |
-|------------------------------------------------------------------------------------------------------------|-----------------------|------|------------------------------------------|----------------------------------------------|
+|:----------------------------------------------------------------------------------------------------------:|:---------------------:|:----:|:----------------------------------------:|:--------------------------------------------:|
 | Item-Difficulty-Aware Learning Path Recommendation: From a Real Walking Perspective | Qi Liu et al | 2024 | DLPR 见子目录 | KDD |
+| [Response Speed Enhanced Fine-grained Knowledge Tracing: A Multi-task Learning Perspective](https://www.sciencedirect.com/science/article/abs/pii/S095741742302609X) | Tao Huang et al | 2024 | FKT 见子目录 | Expert Systems with Applications |
 | [Interpretable Knowledge Tracing with Multiscale State Representation](https://dl.acm.org/doi/pdf/10.1145/3589334.3645373) | Jianwen Sun et al | 2024 | [MIKT](https://github.com/lilstrawberry/MIKT) | WWW |
 | [HD-KT: Advancing Robust Knowledge Tracing via Anomalous Learning Interaction Detection](https://dl.acm.org/doi/pdf/10.1145/3589334.3645718) | Haiping Ma et al | 2024 | HD-KT | WWW |
 | [Question Difficulty Consistent Knowledge Tracing](https://dl.acm.org/doi/pdf/10.1145/3589334.3645582) | Guimei Liu et al | 2024 | QDCKT | WWW |
@@ -10,6 +11,7 @@
 | RIGL: A Unified Reciprocal Approach for Tracing the Independent and Group Learning Processes | Waiting... | 2024 | RIGL | KDD |
 | Leveraging Pedagogical Theories to Understand Student Learning Process with Graph-based Reasonable Knowledge Tracing | Waiting... | 2024 | GRKT | KDD |
 | [Progressive knowledge tracing: Modeling learning process from abstract to concrete](https://www.sciencedirect.com/science/article/abs/pii/S0957417423027823?via%3Dihub) | Jianwen Sun et al | 2024 | [PKT](https://github.com/WeiMengqi934/PKT) | Expert Systems with Applications |
+| —— | 刘如意（西安电子科大） | —— | LKT 见子目录 | —— |
 | [Adversarial Bootstrapped Question Representation Learning for Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3581783.3612044) | Jianwen Sun et al | 2023 | [ABQR](https://github.com/lilstrawberry/ABQR) | ACM MM |
 | [Evolutionary Neural Architecture Search for Transformer in Knowledge Tracing](https://proceedings.neurips.cc/paper_files/paper/2023/file/3e53d82a1113e3d240059a9195668edc-Paper-Conference.pdf) | Shangshang Yang et al | 2023 | [ENAS-KT](https://github.com/DevilYangS/ENAS-KT) | NeurIPS |
 | [Learning behavior-oriented knowledge tracing](http://staff.ustc.edu.cn/~huangzhy/files/papers/BihanXu-KDD2023.pdf) | Bihan Xu et al | 2023 | [LBKT](https://github.com/xbh0720/LBKT) | KDD |
