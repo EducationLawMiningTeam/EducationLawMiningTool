@@ -1,0 +1,16 @@
+dataset: 'student_behavior'
+task: 'classification'
+resume_dir: ''
+logname: 'layer8'
+
+fit:
+  max_epochs: 300
+  patience: 200
+  lr: 0.0001
+
+model:
+  layer: 20
+  base_outdim: 64
+  k: 7
+  drop_rate: 0.1
+
