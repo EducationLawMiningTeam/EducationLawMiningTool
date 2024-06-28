@@ -12,14 +12,14 @@
 
 ## 方法
 
-| Method  |                            Title                             |                            Author                            | Year |   Code   |          Publication          |
-| :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :------: | :---------------------------: |
-|  CMCM   | [Cross-modal credibility modelling for EEG-based multimodal emotion recognition](https://pubmed.ncbi.nlm.nih.gov/38565099/) | [Yuzhe Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=38565099), [Huan Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+H&cauthor_id=38565099) , et al | 2024 | 见子目录 | Journal of Neural Engineering |
-|  SAUI   | [SAUI: Scale-Aware Unseen Imagineer for Zero-Shot Object Detection](https://ojs.aaai.org/index.php/AAAI/article/view/28353) |                Jiahao Wang, Caixia Yan, et al                | 2024 | 见子目录 |             AAAI              |
-| MaskTAS | Masked Distillation Advances Self-Supervised Transformer Architecture Search |                      Caixia Yan, et al                       | 2024 |    —     |             ICLR              |
-| ZS HOI  |                  零样本HOI人物交互检测代码                   |                          Caixia Yan                          | 2024 |    —     |               —               |
-|         |                                                              |                                                              |      |          |                               |
-|         |                                                              |                                                              |      |          |                               |
+|      Method       |                            Title                             |                            Author                            | Year |   Code   |          Publication          |
+| :---------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :------: | :---------------------------: |
+|       CMCM        | [Cross-modal credibility modelling for EEG-based multimodal emotion recognition](https://pubmed.ncbi.nlm.nih.gov/38565099/) | [Yuzhe Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=38565099), [Huan Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+H&cauthor_id=38565099) , et al | 2024 | 见子目录 | Journal of Neural Engineering |
+|       SAUI        | [SAUI: Scale-Aware Unseen Imagineer for Zero-Shot Object Detection](https://ojs.aaai.org/index.php/AAAI/article/view/28353) |                Jiahao Wang, Caixia Yan, et al                | 2024 | 见子目录 |             AAAI              |
+|      MaskTAS      | Masked Distillation Advances Self-Supervised Transformer Architecture Search |                      Caixia Yan, et al                       | 2024 |    —     |             ICLR              |
+|      ZS HOI       |                  零样本HOI人物交互检测代码                   |                          Caixia Yan                          | 2024 | 见子目录 |               —               |
+|   mambaBasedCME   |                              ——                              |                    刘如意（西安电子科大）                    |      | 见子目录 |                               |
+| sentilareBasedCME |                              ——                              |                    刘如意（西安电子科大）                    |      | 见子目录 |                               |
 
 ## 贡献
 

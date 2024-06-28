@@ -1,0 +1,12 @@
+apex==0.9.10dev
+matplotlib==3.7.2
+numpy==1.24.1
+pytorch_transformers==1.2.0
+scikit_learn==1.2.2
+scipy==1.13.1
+tensorflow==2.13.0
+tensorflow_intel==2.13.0
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+tqdm==4.65.0
+transformers==4.31.0
